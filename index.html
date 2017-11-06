@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Roll A Zombie!</title>
+        <script src="Game/Build/UnityLoader.js"></script>
+        <script>
+                var gameInstance = UnityLoader.instantiate("gameContainer", "Game/Build/Game.json");
+        </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img src="Assets/banner.png" alt="Game Title" id="gameBanner">
+        <img src="Assets/left.png" alt="Left Zombies" id="leftZombie">
+        <img src="Assets/right.png" alt="Right Zombies" id="rightZombie">
+        
+        <div id="game">
+            <div id="gameContainer"/>
+        </div>
+    </body>
+</html>

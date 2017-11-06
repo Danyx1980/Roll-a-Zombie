@@ -1,0 +1,43 @@
+body{
+    background-color: #c574ac;
+    background-image: url("Assets/background.png");
+    background-position: center;
+}
+
+#gameBanner{
+    display: block;
+    margin: 0 auto;
+}
+
+#game{
+    width: 80%;
+    margin: auto; 
+
+    border: 5px solid #000000;
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3), 
+                0px 20px 15px 0px rgba(0, 0, 0, 0.6); 
+}
+
+#leftZombie, #rightZombie{
+    top:30%;
+    z-index: -1;
+}
+
+#leftZombie{
+    float:left;
+    position:absolute; 
+    left: 0;
+}
+
+#rightZombie{
+    float:right;
+    position: absolute;
+    right: 0;
+}
+
+/* @media (max-height: 744px) {
+    #game{
+        bottom: 0;
+        margin:auto;
+    }
+} */

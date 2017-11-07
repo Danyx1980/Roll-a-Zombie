@@ -1,0 +1,30 @@
+{
+  "name": "rollazombie",
+  "version": "1.0.0",
+  "description": "Roll a Zombie game from the Devslope Unity tutorial. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Daniel Chan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danyx1980/Roll-a-Zombie.git"
+  },
+  "keywords": [
+    "game",
+    "zombie",
+    "web",
+    "unity"
+  ],
+  "bugs": {
+    "url": "https://github.com/Danyx1980/Roll-a-Zombie/issues"
+  },
+  "homepage": "https://github.com/Danyx1980/Roll-a-Zombie#readme"
+}

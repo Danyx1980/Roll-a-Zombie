@@ -15,5 +15,5 @@ var express = require('express'),
     //app.listen(3000);
 
     app.listen(process.env.PORT, process.env.IP, function(){
-        console.log("Roll A Zombie Started!");
+        console.log("Roll A Zombie Started! in " + process.env.PORT);
     });
